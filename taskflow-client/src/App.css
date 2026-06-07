@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background: #111827;
+    color: #f9fafb;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 24px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 32px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+input {
+    flex: 1;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+    button:hover {
+        opacity: 0.9;
+        transform: translateY(-1px);
+    }
+
+.task-card {
+    background: #1f2937;
+    border: 1px solid #374151;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+    .task-card h3 {
+        margin: 0 0 8px;
+    }
+
+.status {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #374151;
+    margin-bottom: 12px;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+    .actions button:first-child {
+        color: red;
+    }
+
+    .actions button:last-child {
+        color: #2563eb;
+    }
+
+.search-input {
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
